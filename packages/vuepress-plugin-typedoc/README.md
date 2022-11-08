@@ -15,7 +15,7 @@ A [VuePress](https://vuepress.vuejs.org/) plugin to build API documentation with
 > Install in the same location as your VuePress project root.
 
 ```shell
-npm install typedoc typedoc-plugin-markdown vuepress-plugin-typedoc --save-dev
+npm install typedoc @jiereal/typedoc-plugin-markdown @jiereal/vuepress-plugin-typedoc --save-dev
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ npm install typedoc typedoc-plugin-markdown vuepress-plugin-typedoc --save-dev
 ```js
 plugins: [
   [
-    'vuepress-plugin-typedoc',
+    '@jiereal/vuepress-plugin-typedoc',
 
     // plugin options
     {
