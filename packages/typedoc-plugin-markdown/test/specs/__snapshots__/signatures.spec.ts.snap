@@ -3,7 +3,7 @@
 exports[`Signatures: should compile a promise that returns a symbol' 1`] = `
 "▸ **promiseReturningASymbol**(): [\`Promise\`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[\`User\`](../modules.md#user)\\\\>
 
-##### Returns
+##### 返回结果
 
 [\`Promise\`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<[\`User\`](../modules.md#user)\\\\>
 "
@@ -12,7 +12,7 @@ exports[`Signatures: should compile a promise that returns a symbol' 1`] = `
 exports[`Signatures: should compile a promise that returns an object' 1`] = `
 "▸ **promiseReturningAnObject**(): [\`Promise\`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ \`data\`: \`string\` ; \`id\`: \`string\`  }\\\\>
 
-##### Returns
+##### 返回结果
 
 [\`Promise\`]( https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise )<{ \`data\`: \`string\` ; \`id\`: \`string\`  }\\\\>
 "
@@ -21,7 +21,7 @@ exports[`Signatures: should compile a promise that returns an object' 1`] = `
 exports[`Signatures: should compile callable signature' 1`] = `
 "▸ **CallableSignature**(): \`string\`
 
-##### Returns
+##### 返回结果
 
 \`string\`
 "
@@ -30,7 +30,7 @@ exports[`Signatures: should compile callable signature' 1`] = `
 exports[`Signatures: should compile class with constructor' 1`] = `
 "• **new ClassWithConstructor**(\`x\`, \`y\`)
 
-##### Parameters
+##### 参数
 
 | Name | Type |
 | :------ | :------ |
@@ -44,7 +44,7 @@ exports[`Signatures: should compile function that returns a function' 1`] = `
 
 Comments for function
 
-##### Returns
+##### 返回结果
 
 \`fn\`
 
@@ -52,19 +52,19 @@ Return comments
 
 ▸ <\`T\`\\\\>(\`x\`): \`boolean\`
 
-##### Type parameters
+##### 类型参数
 
 | Name |
 | :------ |
 | \`T\` |
 
-##### Parameters
+##### 参数
 
 | Name | Type |
 | :------ | :------ |
 | \`x\` | \`string\` |
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 "
@@ -75,7 +75,7 @@ exports[`Signatures: should compile function that returns an object' 1`] = `
 
 Comments for function
 
-##### Returns
+##### 返回结果
 
 \`Object\`
 
@@ -93,7 +93,7 @@ exports[`Signatures: should compile function with nested typen params' 1`] = `
 
 Some nested params.
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -107,7 +107,7 @@ Some nested params.
 | \`params.parent?\` | \`number\` | - |
 | \`context\` | \`any\` | The context of the method call. |
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 "
@@ -116,13 +116,13 @@ Some nested params.
 exports[`Signatures: should compile function with reference type' 1`] = `
 "▸ **functionWithReferenceType**(\`descriptor\`): \`boolean\`
 
-##### Parameters
+##### 参数
 
 | Name | Type |
 | :------ | :------ |
 | \`descriptor\` | \`TypedPropertyDescriptor\`<\`any\`\\\\> |
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 "
@@ -133,7 +133,7 @@ exports[`Signatures: should compile named parameters with comments' 1`] = `
 
 FOO
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -142,7 +142,7 @@ FOO
 | \`__namedParameters.foo?\` | \`number\` | - |
 | \`anotherParam\` | \`string\` | Another param comment |
 
-##### Returns
+##### 返回结果
 
 \`void\`
 "
@@ -151,13 +151,13 @@ FOO
 exports[`Signatures: should compile named parameters' 1`] = `
 "▸ **functionWithNamedParams**(\`__namedParameters\`): \`string\`
 
-##### Parameters
+##### 参数
 
 | Name | Type |
 | :------ | :------ |
 | \`__namedParameters\` | \`Object\` |
 
-##### Returns
+##### 返回结果
 
 \`string\`
 "
@@ -166,13 +166,13 @@ exports[`Signatures: should compile named parameters' 1`] = `
 exports[`Signatures: should compile pipes in params and comments' 1`] = `
 "▸ **functionWithPipesInParamsAndComments**(\`n\`): \`number\` \\\\| \`\`null\`\`
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | \`n\` | \`number\` | a\\\\|b |
 
-##### Returns
+##### 返回结果
 
 \`number\` \\\\| \`\`null\`\`
 "
@@ -183,7 +183,7 @@ exports[`Signatures: should compile signature with @return comments' 1`] = `
 
 Comments with a return definition
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 
@@ -194,7 +194,7 @@ Return comments
 exports[`Signatures: should compile signature with a flag' 1`] = `
 "▸ \`Private\` **privateFunction**(): \`string\`
 
-##### Returns
+##### 返回结果
 
 \`string\`
 "
@@ -205,7 +205,7 @@ exports[`Signatures: should compile signature with default values' 1`] = `
 
 This is a function with a parameter that has a default value.
 
-##### Parameters
+##### 参数
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
@@ -216,7 +216,7 @@ This is a function with a parameter that has a default value.
 | \`valueE\` | \`boolean\` | \`null\` | A parameter with a default null value. |
 | \`valueF\` | \`string\` | \`'<foo>'\` | - |
 
-##### Returns
+##### 返回结果
 
 \`string\`
 "
@@ -227,14 +227,14 @@ exports[`Signatures: should compile signature with optional params' 1`] = `
 
 This is a function with a parameter that is optional.
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | \`requiredParam\` | \`string\` | A normal parameter. |
 | \`optionalParam?\` | \`string\` | An optional parameter. |
 
-##### Returns
+##### 返回结果
 
 \`void\`
 "
@@ -245,7 +245,7 @@ exports[`Signatures: should compile signature with params' 1`] = `
 
 This is a function with multiple arguments and a return value.
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -253,7 +253,7 @@ This is a function with multiple arguments and a return value.
 | \`paramG\` | \`any\` | This is a parameter flagged with any. |
 | \`paramA\` | \`any\` | This is a **parameter** pointing to an interface. |
 
-##### Returns
+##### 返回结果
 
 \`number\`
 "
@@ -264,13 +264,13 @@ exports[`Signatures: should compile signature with rest params' 1`] = `
 
 This is a function with rest parameter.
 
-##### Parameters
+##### 参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | \`...rest\` | \`string\`[] | The rest parameter. |
 
-##### Returns
+##### 返回结果
 
 \`string\`
 "
@@ -279,14 +279,14 @@ This is a function with rest parameter.
 exports[`Signatures: should compile signature with union types' 1`] = `
 "▸ **functionWithUnionTypes**(\`arg\`, ...\`args\`): \`any\`
 
-##### Parameters
+##### 参数
 
 | Name | Type |
 | :------ | :------ |
 | \`arg\` | \`number\` \\\\| \`boolean\`[] |
 | \`...args\` | (\`string\` \\\\| \`number\`)[] |
 
-##### Returns
+##### 返回结果
 
 \`any\`
 "

@@ -7,7 +7,7 @@ exports[`Generics: should compile class with type params 1`] = `
 
 [partial: comment]
 
-## Type parameters
+## 类型参数
 
 | Name |
 | :------ |
@@ -25,13 +25,13 @@ exports[`Generics: should compile function with a simple type param' 1`] = `
 
 [partial: comment]
 
-##### Type parameters
+##### 类型参数
 
 | Name |
 | :------ |
 | \`A\` |
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 "
@@ -42,7 +42,7 @@ exports[`Generics: should compile function with complex type params' 1`] = `
 
 [partial: comment]
 
-##### Type parameters
+##### 类型参数
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
@@ -50,7 +50,7 @@ exports[`Generics: should compile function with complex type params' 1`] = `
 | \`B\` | \`string\` \\\\| \`boolean\` | Comment for type \`B\` |
 | \`C\` | \`string\` | - |
 
-##### Returns
+##### 返回结果
 
 \`boolean\`
 
@@ -63,7 +63,7 @@ exports[`Generics: should compile generics with defaults' 1`] = `
 
 [partial: comment]
 
-#### Type parameters
+#### 类型参数
 
 | Name | Type |
 | :------ | :------ |

@@ -14,7 +14,7 @@ exports[`Reflections: (template) should compile Enum 1`] = `
 
 ## Table of contents
 
-### Enumeration Members
+### 枚举常量成员
 
 - [Down](../enums/EnumReflection.md#down)
 - [Left](../enums/EnumReflection.md#left)
@@ -62,7 +62,7 @@ exports[`Reflections: (template) should compile implemented class 1`] = `
 
 ## Table of contents
 
-### Constructors
+### 构造函数
 
 - [constructor](../classes/ImplementedClass.md#constructor)
 
@@ -75,7 +75,7 @@ exports[`Reflections: (template) should compile module with breadcrumbs and proj
 
 ## Table of contents
 
-### Enumeration Members
+### 枚举常量成员
 
 - [Down](../enums/EnumReflection.md#down)
 - [Left](../enums/EnumReflection.md#left)

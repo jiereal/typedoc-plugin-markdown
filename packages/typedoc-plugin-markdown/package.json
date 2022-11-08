@@ -1,7 +1,7 @@
 {
-  "name": "typedoc-plugin-markdown",
+  "name": "@hans/typedoc-plugin-markdown",
   "version": "3.13.6",
-  "description": "A plugin for TypeDoc that enables TypeScript API documentation to be generated in Markdown.",
+  "description": "fork typedoc-plugin-markdown & translate into zh-cn",
   "main": "dist/index.js",
   "files": [
     "dist/"
@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint ./src --ext .ts",
     "markdownlint": "yarn run docs:md && markdownlint ./docs/md",
-    "prepublishOnly": "yarn run lint && yarn run build && yarn run test",
+    "prepublishOnly": "yarn run lint && yarn run build",
     "build": "rm -rf dist && tsc && copyfiles --up 1 ./src/**/*.hbs ./dist/",
     "test": "jest --colors",
     "build-and-test": "yarn run build && yarn run test",
@@ -20,14 +20,14 @@
   "author": "Thomas Grey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tgreyuk/typedoc-plugin-markdown/issues"
+    "url": "https://github.com/jiereal/typedoc-plugin-markdown/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tgreyuk/typedoc-plugin-markdown.git",
+    "url": "git+https://github.com/jiereal/typedoc-plugin-markdown.git",
     "directory": "packages/typedoc-plugin-markdown"
   },
-  "homepage": "https://github.com/tgreyuk/typedoc-plugin-markdown/tree/master/packages/typedoc-plugin-markdown",
+  "homepage": "https://github.com/jiereal/typedoc-plugin-markdown/tree/master/packages/typedoc-plugin-markdown",
   "keywords": [
     "markdown",
     "typescript",

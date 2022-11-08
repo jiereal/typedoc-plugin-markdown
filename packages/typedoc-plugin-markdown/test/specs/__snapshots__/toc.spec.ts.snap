@@ -3,11 +3,11 @@
 exports[`TOC: (default) should display toc for class' 1`] = `
 "## Table of contents
 
-### Constructors
+### 构造函数
 
 - [constructor](SomeClass.md#constructor)
 
-### Methods
+### 方法
 
 - [someMethod](SomeClass.md#somemethod)
 "
@@ -16,16 +16,16 @@ exports[`TOC: (default) should display toc for class' 1`] = `
 exports[`TOC: (default) should display toc for module' 1`] = `
 "## Table of contents
 
-### Classes
+### 类
 
 - [SomeClass](SomeClass.md)
 
-### Type Aliases
+### 类型别称
 
 - [Answer](../modules.md#answer)
 - [answer](../modules.md#answer-1)
 
-### Variables
+### 变量
 
 - [\\\\_answer](../modules.md#_answer)
 - [answer](../modules.md#answer-2)

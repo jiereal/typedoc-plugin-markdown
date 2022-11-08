@@ -5,7 +5,7 @@ exports[`Members: (member) should compile a signature members' 1`] = `
 
 ▸ **signatureMember**(): \`void\`
 
-#### Returns
+#### 返回结果
 
 \`void\`
 
@@ -31,7 +31,7 @@ exports[`Members: (member) should compile members with getter' 1`] = `
 
 • \`get\` **getter**(): \`string\`
 
-#### Returns
+#### 返回结果
 
 \`string\`
 
@@ -46,13 +46,13 @@ exports[`Members: (member) should compile members with setter' 1`] = `
 
 • \`set\` **setter**(\`value\`): \`void\`
 
-#### Parameters
+#### 参数
 
 | Name | Type |
 | :------ | :------ |
 | \`value\` | \`string\` |
 
-#### Returns
+#### 返回结果
 
 \`void\`
 
@@ -67,7 +67,7 @@ exports[`Members: (members) should compile class members' 1`] = `
 
 [partial: member]
 
-## Properties
+## 属性
 
 [partial: member]
 
@@ -89,7 +89,7 @@ exports[`Members: (with hideMembersSymbol) should compile members without specia
 
 **signatureMember**(): \`void\`
 
-#### Returns
+#### 返回结果
 
 \`void\`
 

@@ -1,11 +1,11 @@
 import { ReflectionKind } from 'typedoc';
 
 const PLURALS = {
-  [ReflectionKind.Class]: 'Classes',
-  [ReflectionKind.Property]: 'Properties',
-  [ReflectionKind.Enum]: 'Enumerations',
-  [ReflectionKind.EnumMember]: 'Enumeration members',
-  [ReflectionKind.TypeAlias]: 'Type aliases',
+  [ReflectionKind.Class]: '类',
+  [ReflectionKind.Property]: '属性',
+  [ReflectionKind.Enum]: '枚举常量',
+  [ReflectionKind.EnumMember]: '枚举常量',
+  [ReflectionKind.TypeAlias]: '类型别称',
 };
 
 export function getKindPlural(kind: ReflectionKind): string {
